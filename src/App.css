@@ -1,0 +1,275 @@
+.app {
+
+  background: white;
+  width: 100%;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.h_all {}
+
+.h_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  transform: 0.3s;
+  width: 100%;
+  min-height: 120px;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+  z-index: 100;
+}
+
+.h_navi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 35px;
+}
+
+.h_navi li {
+  list-style: none;
+  margin: 10px;
+}
+
+.h_navi li a,
+h4 {
+  text-decoration: none;
+  color: #212529;
+  text-transform: uppercase;
+  transition: 0.3s;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.h_navi .active {
+  color: #039af5;
+}
+
+.oneBlock {
+  min-height: 100vh;
+  padding-top: 30vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  
+}
+
+.contact_b {
+  padding: 0px 35px;
+  background-color: #fff;
+}
+
+
+.devBlock {
+  min-height: 13vh;
+  background-color: #868e96;
+  opacity: 0.3;
+}
+
+.btnBlog {
+  display: flex;
+  flex-direction: row;
+  margin-right: 35px;
+}
+
+.btnBlog button {
+  background-color: #039af5;
+  color: #fff;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.logoBlog {
+  margin-left: 35px;
+}
+
+.h_header_oneBlog {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.onBlock_title {
+  padding-bottom: 0px;
+  max-height: 25px;
+  display: flex;
+  justify-content: center;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.onBlock_title h3 {
+  font-weight: 100;
+  font-size: 12px;
+  color: #212529;
+  text-transform: uppercase;
+}
+
+.onBlock_title h3::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 4px;
+  margin: 22px auto 0;
+  background-color: #039af5;
+
+}
+
+.contac {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.c_item {
+  width: 400px;
+  min-height: 200px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgb(214 215 216 / 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.c_icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px dashed #039af5;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #039af5;
+  box-shadow: 0 0 20px rgb(214 215 216 / 50%);
+}
+
+.c_info h5,
+.navB a {
+  font-weight: 100;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #868e96;
+
+}
+
+.c_title h4 {
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #212529;
+  text-transform: capitalize;
+}
+
+.c_section {
+  background-color: #f6f6f6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.c_s {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 35px;
+}
+
+.c_lienB li {
+  list-style: none;
+  padding: 10px 0;
+}
+
+.c_lienB h4 {
+  color: #212529;
+}
+
+.c_lienB a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.c_b {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-right: 35px;
+}
+
+.space {
+  padding-top: 10px;
+}
+
+.c_b button {
+  background-color: #039af5;
+  color: #fff;
+}
+
+.btn_reseaux {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn_reseaux button {
+  background-color: #039af5;
+  color: #fff;
+  margin-right: 6px;
+  margin-top: 10px;
+  ;
+}
+
+.oneBlocks {
+  padding-top: 20vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(3, 154, 245, 0.6);
+  height: 90vh;
+  align-items: center;
+}
+
+.acBloc {
+  min-height: 50vh;
+  background: rgba(255, 255, 255, 0.9);
+  width: 80%;
+  border-top: 4px solid #039af5;
+}
+
+.c_s h5 {
+  line-height: 24px;
+
+}
+
+.c_s strong {
+  color: #212529;
+}
+
+.c_s img {
+  margin-bottom: 10px;
+}
+
+.backUp {
+  position: fixed;
+  bottom: 2px;
+  right: 0px;
+  background-color: #039af5;
+}
+
+.backUp a {
+
+  color: #fff;
+}
